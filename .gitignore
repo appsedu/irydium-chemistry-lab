@@ -1,0 +1,3 @@
+*.deb
+irydium-chemistry-lab.tar.xz
+deb_package/usr/share/irydium/

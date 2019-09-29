@@ -1,0 +1,11 @@
+Package: irydium-chemistry-lab-bionic
+Version: 2.1.0
+Installed-Size: 
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Section: science
+Architecture: all
+Priority: optional
+Homepage: http://chemcollective.org/vlab_download
+Description: Virtual Chemistry Laboratory.
+ An Virtual Chemistry Laboratory from The irYdium Project's.
+ You need Java installed to run correctly!.

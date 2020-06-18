@@ -23,11 +23,15 @@ function runByUsers {
 	runuser -l $2 -c "mkdir -p $1/.config/menus/applications-merged/"
 	runuser -l $2 -c "mkdir -p $1/.local/share/desktop-directories/"
 	runuser -l $2 -c "mkdir -p $1/.local/share/applications/"
+	runuser -l $2 -c "mkdir -p $1/Desktop/"
 	runuser -l $2 -c "cp /tmp/irydium-chemistry-lab-bionic/irydium-chemistry-lab.menu $1/.config/menus/applications-merged/"
 	runuser -l $2 -c "cp -rf /tmp/irydium-chemistry-lab-bionic/education-Chemistry.directory $1/.local/share/desktop-directories/"
  	runuser -l $2 -c "cp -rf /tmp/irydium-chemistry-lab-bionic/irydium-chemistry-lab.desktop $1/.local/share/applications/"
- 	geraShort /tmp/irydium-chemistry-lab-bionic/irydium-chemistry-lab.desktop /usr/share/applications/irydium-chemistry-lab.desktop \
- 	> $1/Desktop/irydium-chemistry-lab.desktop
+ 	
+	# geraShort /tmp/irydium-chemistry-lab-bionic/irydium-chemistry-lab.desktop /usr/share/applications/irydium-chemistry-lab.desktop \
+ 	# > $1/Desktop/irydium-chemistry-lab.desktop
+
+	cp /usr/share/applications/irydium-chemistry-lab.desktop $1/Desktop/irydium-chemistry-lab.desktop
 }
 
 while read USUARIO; do

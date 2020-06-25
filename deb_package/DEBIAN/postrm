@@ -8,8 +8,6 @@ function runByUsers {
 	# $1 is default folder of user
 	# $2 is name of user
 	rm -rf $1/Desktop/irydium-chemistry-lab.desktop
-	rm -rf $1/.config/menus/applications-merged/irydium-chemistry-lab.menu
-	rm -rf $1/.local/share/applications/irydium-chemistry-lab.desktop
 	if [ "$1" == "/etc/skel" ]; then
 		rmdir $1/Desktop/
 	fi

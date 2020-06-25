@@ -1,9 +1,0 @@
-[Desktop Entry]
-Comment=Chemistry Lab
-Encoding=UTF-8
-Exec=/usr/bin/irydium-chemistry-lab
-Icon=irydium
-Name=Irydium Chemistry Lab
-StartupNotify=true
-Terminal=false
-Type=Application

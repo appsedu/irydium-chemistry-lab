@@ -1,5 +1,5 @@
 [Desktop Entry]
-Categories=Chemistry;Science;Application;
+Categories=Chemistry;Science;Education;
 Comment=Chemistry Lab
 Encoding=UTF-8
 Exec=/usr/bin/irydium-chemistry-lab
